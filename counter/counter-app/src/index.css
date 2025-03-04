@@ -1,0 +1,51 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #34442c;
+}
+
+h1 {
+  font-size: 3rem;
+  color:black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(163, 237, 158);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 5px;
+}
+
+button:hover {
+  background-color:rgb(159, 179, 79);
+  transform: scale(1.1);
+}
+
+button:disabled {
+  background-color:rgb(174, 174, 59);
+  cursor: not-allowed;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

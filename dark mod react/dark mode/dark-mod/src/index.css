@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Dark & Light Mode */
+  .app.light {
+    background-color: white;
+    color: black;
+  }
+  
+  .app.dark {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 16px;
+  }
+  
+  .header.dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  .header.light {
+    background-color: #f0f0f0;
+    color: black;
+  }
+  
+  /* Toggle Button */
+  .toggle-button {
+    margin-top: 10px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .toggle-button:hover {
+    background-color: #777;
+  }
+  
+  /* Section */
+  .section {
+    background-color: #eee;
+    padding: 20px;
+    margin: 16px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .app.dark .section {
+    background-color: #222;
+  }
+  
+  /* Main Content */
+  .main {
+    padding: 20px;
+    margin: 16px;
+    background-color: #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .app.dark .main {
+    background-color: #444;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 16px;
+    margin-top: 16px;
+    border-top: 1px solid #ccc;
+    background-color: #333;
+    color: white;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .app.dark .footer {
+    background-color: #111;
+  }
+  
